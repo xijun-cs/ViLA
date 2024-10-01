@@ -71,7 +71,7 @@ sh run_scripts/vila/finetune/star_8f.sh
 sh run_scripts/vila/finetune/star_f32_f16.sh
 ```
 
-## 2) prepare weight (change the model path first)
+## 2) Prepare weight (change the model path first)
 
 ```bash
 python re_weight.py
@@ -89,6 +89,7 @@ Check ./lavis/models/vila_models/vila_lora.py
 # Acknowledgments
 We thank the developers of [SeViLA](https://github.com/Yui010206/SeViLA),  [LAVIS](https://github.com/salesforce/LAVIS), [BLIP-2](https://github.com/salesforce/LAVIS/tree/main/projects/blip2), [CLIP](https://github.com/openai/CLIP), [All-in-One](https://github.com/showlab/all-in-one), for their public code release.
 
+Amazon Science [Repo](https://github.com/amazon-science/ViLA) .
 
 
 ## Citing Swin-MoE
